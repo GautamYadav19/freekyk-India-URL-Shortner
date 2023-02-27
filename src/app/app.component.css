@@ -1,0 +1,31 @@
+
+.container-fluid{
+    background-color:rgb(237, 242, 242);
+}
+.inp {
+    border-bottom: 1px solid #1890ff;
+    padding: 15px 10px;
+ }
+
+[placeholder]:focus::-webkit-input-placeholder {
+    transition: text-indent 0.4s 0.4s ease; 
+    text-indent: -100%;
+    opacity: 1;
+background-image: url(/src/environments/icons8-link-64.png);
+background-repeat: no-repeat;
+text-indent: 20px;
+ }
+.InputFiled{
+    outline: none;
+    border-color:  #1890ff;
+    width: 55%;
+    padding-left: calc(100%-80px);
+    padding-top: calc((100%-20px));
+}
+p{
+    padding-top: 20px;
+}
+h1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
